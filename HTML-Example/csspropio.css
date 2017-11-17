@@ -1,0 +1,180 @@
+textarea{
+	resize: none;
+}
+
+.roboto{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+.small-size-input{
+	width: 30%;
+}
+
+.medium-size-input{
+	width: 50%;
+}
+
+.large-size-input{
+	width: 100%;
+}
+
+.light-green-bg{
+	background: #A1E26C;
+}
+
+.margin-form-left{
+	margin-left: 15px;
+}
+
+.light-blue-bg{
+	background: #5072ff;
+	color: #FFFFFF;
+}
+
+.light-grey-bg{
+	background: #CCD9CE;
+
+}
+
+.top-space{
+	margin-top: 5%;
+}
+
+.mini-top-space{
+	margin-top: 3%;
+}
+
+.micro-top-space{
+	height: 14%;
+}
+
+.bottom-space{
+	margin-bottom: 2%;
+}
+
+.th-header{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #820333;
+    color: white;
+}
+
+.white-font{
+	color: white;
+}
+/* Navbar generado con https://work.smarchal.com/twbscolor/3.3.2/css/e74c3cc0392becf0f1ffbbbc0*/
+.navbar-default {
+  background-color: #5072ff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #F6EDD3; /* encima del logo*/
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #F6EDD3; /* encima*/
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #5072ff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #5072ff;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #5072ff;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #5072ff;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #5072ff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #5072ff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #5072ff;
+    background-color: #ffffff;
+  }
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+.navigation {
+   /* fixed keyword is fine too */
+   position: sticky;
+   top: 0;
+   z-index: 100;
+   border-top: 0;
+   width: 100%;
+   left: 0;
+   /* z-index works pretty much like a layer:
+   the higher the z-index value, the greater
+   it will allow the navigation tag to stay on top
+   of other tags */
+}
